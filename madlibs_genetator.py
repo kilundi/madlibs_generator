@@ -1,9 +1,7 @@
 with open("story.txt", "r") as f:
     story = f.read()
 
-# print("\n")
-# print(story)
-# print("\n")
+
 words = set()
 start_of_word = -1
 target_start = "<"
