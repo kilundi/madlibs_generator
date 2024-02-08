@@ -17,10 +17,11 @@ for i, char in  enumerate(story):
 
 answers ={}
 for word in words:
-    answer  = input(f"Enter a word for {word}: ")
+    answer  = input(f"Enter a word for {word}: \n")
     answers[word] = answer
 
 for word in words:
    story = story.replace(word, answers[word])
-
-print(story)
+print("\n")
+print(f"\n {story} \n")
+print("\n")
